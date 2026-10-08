@@ -1,0 +1,6 @@
+mysql-connector-python
+numpy
+pandas
+PyMySQL
+scikit-learn
+SQLAlchemy

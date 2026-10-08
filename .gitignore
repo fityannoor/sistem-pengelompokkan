@@ -1,5 +1,12 @@
-# Object file
-*.o
-
-# Ada Library Information
-*.ali
+/config/database.ini
+/database/backups/*.sql
+/vendor/
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+/python/hasil_perbandingan_normalisasi.csv
+/clustering_debug.log
+*.log
+.env
+.env.*

@@ -1,0 +1,22 @@
+body{
+    background:#f4f7fb;
+    font-family:'Poppins',sans-serif;
+}
+
+.container-custom{
+    max-width:1200px;
+    margin:auto;
+    padding:30px;
+}
+
+.card-box{
+    background:white;
+    border-radius:20px;
+    padding:24px;
+    box-shadow:0 8px 24px rgba(0,0,0,.05);
+}
+
+.table td,
+.table th{
+    vertical-align:middle;
+}

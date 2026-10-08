@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1536" height="1024" viewBox="0 0 1536 1024">
+<style>
+    .title { font-family: Arial, sans-serif; font-size: 40px; fill: #000; }
+    .axis-label { font-family: Arial, sans-serif; font-size: 28px; fill: #000; }
+    .tick { font-family: Arial, sans-serif; font-size: 28px; fill: #000; }
+    .value { font-family: Arial, sans-serif; font-size: 22px; fill: #1f2f9b; }
+    .grid { stroke: #bdbdbd; stroke-width: 1; stroke-dasharray: 6 4; }
+    .axis { stroke: #000; stroke-width: 2; }
+    .line { fill: none; stroke: #1f2f9b; stroke-width: 4; }
+    .point { fill: #1f2f9b; stroke: #1f2f9b; }
+    .best-line { stroke: #ff1f1f; stroke-width: 4; stroke-dasharray: 12 6; }
+    .best-text { font-family: Arial, sans-serif; font-size: 28px; fill: #ff1f1f; }
+    .note { font-family: Arial, sans-serif; font-size: 24px; fill: #000; }
+</style>
+<rect width="100%" height="100%" fill="#fff" />
+<text x="768.0" y="52" class="title" text-anchor="middle">Elbow Method </text>
+<line x1="130" y1="760.00" x2="1518" y2="760.00" class="grid" /><line x1="130" y1="621.60" x2="1518" y2="621.60" class="grid" /><line x1="130" y1="483.20" x2="1518" y2="483.20" class="grid" /><line x1="130" y1="344.80" x2="1518" y2="344.80" class="grid" /><line x1="130" y1="206.40" x2="1518" y2="206.40" class="grid" /><line x1="130" y1="68.00" x2="1518" y2="68.00" class="grid" /><line x1="130.00" y1="68" x2="130.00" y2="760" class="grid" /><line x1="229.14" y1="68" x2="229.14" y2="760" class="grid" /><line x1="328.29" y1="68" x2="328.29" y2="760" class="grid" /><line x1="427.43" y1="68" x2="427.43" y2="760" class="grid" /><line x1="526.57" y1="68" x2="526.57" y2="760" class="grid" /><line x1="625.71" y1="68" x2="625.71" y2="760" class="grid" /><line x1="724.86" y1="68" x2="724.86" y2="760" class="grid" /><line x1="824.00" y1="68" x2="824.00" y2="760" class="grid" /><line x1="923.14" y1="68" x2="923.14" y2="760" class="grid" /><line x1="1022.29" y1="68" x2="1022.29" y2="760" class="grid" /><line x1="1121.43" y1="68" x2="1121.43" y2="760" class="grid" /><line x1="1220.57" y1="68" x2="1220.57" y2="760" class="grid" /><line x1="1319.71" y1="68" x2="1319.71" y2="760" class="grid" /><line x1="1418.86" y1="68" x2="1418.86" y2="760" class="grid" /><line x1="1518.00" y1="68" x2="1518.00" y2="760" class="grid" />
+<line x1="130" y1="68" x2="130" y2="760" class="axis" />
+<line x1="130" y1="760" x2="1518" y2="760" class="axis" />
+<text x="98" y="768.00" class="tick" text-anchor="end">1</text><text x="98" y="629.60" class="tick" text-anchor="end">5</text><text x="98" y="491.20" class="tick" text-anchor="end">8</text><text x="98" y="352.80" class="tick" text-anchor="end">11</text><text x="98" y="214.40" class="tick" text-anchor="end">15</text><text x="98" y="76.00" class="tick" text-anchor="end">18</text>
+<text x="130.00" y="803" class="tick" text-anchor="middle">2</text><text x="229.14" y="803" class="tick" text-anchor="middle">3</text><text x="328.29" y="803" class="tick" text-anchor="middle">4</text><text x="427.43" y="803" class="tick" text-anchor="middle">5</text><text x="526.57" y="803" class="tick" text-anchor="middle">6</text><text x="625.71" y="803" class="tick" text-anchor="middle">7</text><text x="724.86" y="803" class="tick" text-anchor="middle">8</text><text x="824.00" y="803" class="tick" text-anchor="middle">9</text><text x="923.14" y="803" class="tick" text-anchor="middle">10</text><text x="1022.29" y="803" class="tick" text-anchor="middle">11</text><text x="1121.43" y="803" class="tick" text-anchor="middle">12</text><text x="1220.57" y="803" class="tick" text-anchor="middle">13</text><text x="1319.71" y="803" class="tick" text-anchor="middle">14</text><text x="1418.86" y="803" class="tick" text-anchor="middle">15</text><text x="1518.00" y="803" class="tick" text-anchor="middle">16</text>
+<text x="768.0" y="833" class="axis-label" text-anchor="middle">Jumlah Cluster (K)</text>
+<text x="42" y="512.0" class="axis-label" text-anchor="middle" transform="rotate(-90 42 512.0)">Inertia </text>
+<polyline points="130.00,134.97 229.14,299.76 328.29,366.54 427.43,412.31 526.57,451.09 625.71,491.61 724.86,518.45 824.00,543.35 923.14,568.97 1022.29,591.72 1121.43,618.11 1220.57,635.13 1319.71,651.59 1418.86,674.93 1518.00,693.03" class="line" />
+<circle cx="130.00" cy="134.97" r="10" class="point" /><text x="150.00" y="104.97" class="value" text-anchor="middle">16.283212</text><circle cx="229.14" cy="299.76" r="10" class="point" /><text x="229.14" y="269.76" class="value" text-anchor="middle">12.353988</text><circle cx="328.29" cy="366.54" r="10" class="point" /><text x="328.29" y="336.54" class="value" text-anchor="middle">10.761642</text><circle cx="427.43" cy="412.31" r="10" class="point" /><text x="427.43" y="382.31" class="value" text-anchor="middle">9.670118</text><circle cx="526.57" cy="451.09" r="10" class="point" /><text x="526.57" y="421.09" class="value" text-anchor="middle">8.745522</text><circle cx="625.71" cy="491.61" r="10" class="point" /><text x="625.71" y="461.61" class="value" text-anchor="middle">7.779477</text><circle cx="724.86" cy="518.45" r="10" class="point" /><text x="724.86" y="488.45" class="value" text-anchor="middle">7.139382</text><circle cx="824.00" cy="543.35" r="10" class="point" /><text x="824.00" y="513.35" class="value" text-anchor="middle">6.545677</text><circle cx="923.14" cy="568.97" r="10" class="point" /><text x="923.14" y="538.97" class="value" text-anchor="middle">5.934733</text><circle cx="1022.29" cy="591.72" r="10" class="point" /><text x="1022.29" y="561.72" class="value" text-anchor="middle">5.392382</text><circle cx="1121.43" cy="618.11" r="10" class="point" /><text x="1121.43" y="588.11" class="value" text-anchor="middle">4.763024</text><circle cx="1220.57" cy="635.13" r="10" class="point" /><text x="1220.57" y="605.13" class="value" text-anchor="middle">4.357378</text><circle cx="1319.71" cy="651.59" r="10" class="point" /><text x="1319.71" y="621.59" class="value" text-anchor="middle">3.964839</text><circle cx="1418.86" cy="674.93" r="10" class="point" /><text x="1418.86" y="644.93" class="value" text-anchor="middle">3.408174</text><circle cx="1518.00" cy="693.03" r="10" class="point" /><text x="1458.00" y="663.03" class="value" text-anchor="middle">2.976642</text>
+<line x1="229.14" y1="68" x2="229.14" y2="760" class="best-line" />
+<rect x="253.14" y="103" width="220" height="46" rx="6" fill="#fff" stroke="#ff1f1f" stroke-width="2" />
+<text x="271.14" y="135" class="best-text">K Terbaik = 3</text>
+<line x1="253.14" y1="126" x2="237.14" y2="126" stroke="#ff1f1f" stroke-width="3" marker-end="url(#arrow)" />
+<defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+        <path d="M 0 0 L 10 5 L 0 10 z" fill="#ff1f1f" />
+    </marker>
+</defs>
+<rect x="378" y="875" width="780" height="108" rx="5" fill="#fff" stroke="#1f2f9b" stroke-width="3" />
+<text x="402" y="905" class="note">Terjadi penurunan inertia yang mulai melandai setelah k = 3</text><text x="402" y="933" class="note">(titik elbow). Sehingga jumlah cluster terbaik berdasarkan</text><text x="402" y="961" class="note">Elbow Method adalah 3.</text>
+</svg>
